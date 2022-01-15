@@ -271,6 +271,7 @@ footer{
 /*-----------------------
 ------------------------------- Responsiveness portion */
 @media (max-width:688px) {
+   
     body{
         margin-left: 0px;
         margin-right: 0;
@@ -282,18 +283,23 @@ footer{
         height: fit-content;
         grid-template-columns:repeat(1fr);
         justify-content: center;
-        align-content: center;
-        pl
+        text-align: center;
+       
+        
+        
     }
     .intro-left, .intro-right{
         width: fit-content:
         text-align: center;
        
-        /* margin-left: 50px; */
+        
        
     }
     .logos{
         flex-wrap: wrap;
+    }
+    .collection{
+        text-align: center;
     }
     .products{
         grid-template-columns: repeat(1,1fr);
@@ -320,9 +326,8 @@ footer{
         width: 100vw;
         height: fit-content;
     }
-    .collection{
-        text-align: center;
-    }
+    
+    
    
     
 }
