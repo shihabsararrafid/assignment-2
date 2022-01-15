@@ -273,6 +273,7 @@ footer{
 @media (max-width:688px) {
     body{
         margin-left: 0px;
+        margin-right: 0;
     }
     
     .intro{
@@ -280,10 +281,15 @@ footer{
         display: grid;
         height: fit-content;
         grid-template-columns:repeat(1fr);
+        justify-content: center;
+        align-content: center;
+        pl
     }
     .intro-left, .intro-right{
         width: fit-content:
         text-align: center;
+       
+        /* margin-left: 50px; */
        
     }
     .logos{
@@ -295,16 +301,27 @@ footer{
     .product{
         width: 100vw;
         height: fit-content;
+      
+    }
+    .product>img{
+        margin-left: 0;
+        margin-right: 0;
     }
     .contact-details{
         grid-template-columns: repeat(1,1fr);
+       align-content: center;
     }
-    .contact-image{
-        width: 50%;
+    .contact-details>.contact-image>img{
+        width: 100%;
     }
+       
+    
     footer{
         width: 100vw;
         height: fit-content;
+    }
+    .collection{
+        text-align: center;
     }
    
     
