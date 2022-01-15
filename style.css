@@ -225,7 +225,10 @@ h2{
 .contact-details{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    /* display: flex;
+    flex-wrap: wrap; */
     margin-top: 30px;
+    grid-column-gap: 10px;
 }
 .contact-details>button{
     text-align: center;
@@ -233,9 +236,10 @@ h2{
 .contact>h1{
     text-align: center;
 }
-.contact-image{
+.contact-details>.contact-image>img{
     width: 100%;
 }
+
 /* form section */
 .text{
     width: 100%;
@@ -268,8 +272,7 @@ footer{
 ------------------------------- Responsiveness portion */
 @media (max-width:688px) {
     body{
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0px;
     }
     
     .intro{
