@@ -267,6 +267,11 @@ footer{
 /*-----------------------
 ------------------------------- Responsiveness portion */
 @media (max-width:688px) {
+    body{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
     .intro{
         /* flex-wrap: wrap; */
         display: grid;
@@ -290,6 +295,9 @@ footer{
     }
     .contact-details{
         grid-template-columns: repeat(1,1fr);
+    }
+    .contact-image{
+        width: 50%;
     }
     footer{
         width: 100vw;
