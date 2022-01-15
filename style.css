@@ -1,0 +1,155 @@
+/*----------
+------------------
+-----------------------applying Google font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Montserrat:wght@400;500;700&family=Poppins:wght@300;400;500;700&family=Spline+Sans:wght@400;500&display=swap');
+
+
+
+
+/* body section style */
+body{
+    margin-top:90px ;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* header section style */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    font-size: 2em;
+}
+.intro-animation{
+    position: relative;
+}
+.intro-animation::after{
+    content: "Influencer";
+    color: #E02C6D;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: typing 3s infinite;
+}
+@keyframes typing
+ {
+    0%{
+        content: "";
+    }
+    5%{
+        content: "|";
+    }
+    10%{
+        content: "I|";
+    }
+    15%{
+        content: "In|";
+    }
+    20%{
+        content: "Inf|";
+    }
+    25%{
+        content: "Infl|";
+    }
+    30%{
+        content: "Influ|";
+    }
+    35%{
+        content: "Influe|";
+    }
+    40%{
+        content: "Influen|";
+    }
+    45%{
+        content: "Influence|";
+    }
+    50%,90%{
+        content: "Influencer|";
+    }
+    91%{
+        content: "Influence|";
+    }
+    92%{
+        content: "Influen|";
+    }
+    93%{
+        content: "Influe|";
+    }
+    94%{
+        content: "Influ|";
+    }
+    95%{
+        content: "Infl|";
+    }
+    96%{
+        content: "Inf|";
+    }
+    97%{
+        content: "In|";
+    }
+    98%{
+        content: "I|";
+    }
+    99%,100%{
+        content: "|";
+    }
+    
+}
+}
+/* animation for h2 */
+
+
+ /*-------------
+ --------------------- navigation bar style */
+ .nav-menu{
+     display: flex;
+     gap: 20px;
+ }
+ nav>ul{
+     /* display: flex;
+     gap: 20px;
+     flex-direction: row; */
+   display: flex;
+  gap: 20px;
+ }
+ nav>ul>li{
+     list-style: none;
+     
+ }
+ nav>ul>li>a{
+     text-decoration: none;
+     color: black;
+     font-weight: 500;
+ }
+ /* ---------------
+ ---------------------introduction styles */
+ .intro{
+     margin-top: 120px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .intro>.intro-left>h1{
+     font-size: 3em;
+ }
+ .intro>.intro-left>p{
+     font-weight: 500;
+ }
+
+
+ /* button style */
+ .btn{
+     color: white;
+     background-color: #E02C6D;
+     padding: 10px 25px;
+     border: 2px solid #E02C6D;
+     border-radius: 20px;
+ }
+ .fa-arrow-right{
+     margin-left: 8px;
+ }
